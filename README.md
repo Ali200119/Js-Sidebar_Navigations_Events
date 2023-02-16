@@ -1,1 +1,1 @@
-# Js-Sidebar_Navigations_Events
+Homework for Monday (01.02.2023)
