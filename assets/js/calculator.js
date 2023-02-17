@@ -39,7 +39,13 @@ multiple.addEventListener("click", function() {
 
 divide.addEventListener("click", function() {
     if (!isNaN(num1.value) && !isNaN(num2.value)) {
-        result.value = parseInt(num1.value) / parseInt(num2.value);
+        if (parseInt(num2.value) == 0) {
+            alert("You can't divide by zero");
+        }
+
+        else {
+            result.value = parseInt(num1.value) / parseInt(num2.value);
+        }
     }
 
     num1.value = "";
