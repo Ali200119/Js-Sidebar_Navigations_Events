@@ -73,4 +73,9 @@
 }
 #sidebar .hamburger-hide .hide {
   display: none;
+}
+
+#space {
+  width: 100%;
+  height: 100vh;
 }/*# sourceMappingURL=sidebar.css.map */
