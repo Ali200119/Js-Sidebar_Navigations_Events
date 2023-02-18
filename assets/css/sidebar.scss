@@ -41,6 +41,7 @@
                     overflow: hidden;
                     background-color: dodgerblue;
                     transition: 0.4s;
+                    font-size: unset;
     
                     &:hover {
                         transform: perspective(500px) rotateY(15deg);
@@ -60,6 +61,24 @@
                         background: linear-gradient(90deg, transparent, #fff, transparent);
                         transition: 0.4s;
                     }
+                }
+            }
+
+            @media only screen and (max-width: 865px) {
+                .menu {
+                    width: 90%;
+
+                    a {
+                        width: 110px;
+                        height: 35px;
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            @media only screen and (max-width: 688px) {
+                .menu {
+                    width: 100%;
                 }
             }
         }
