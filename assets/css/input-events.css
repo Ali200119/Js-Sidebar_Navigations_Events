@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/Sunset.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main input {
+  width: 200px;
+}
+main button {
+  display: none;
+}/*# sourceMappingURL=input-events.css.map */

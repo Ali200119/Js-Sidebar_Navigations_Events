@@ -16,7 +16,7 @@ body {
   height: 100vh;
   background-color: white;
   transition-duration: 0.4s;
-  transform: translate(-205px);
+  transform: translate(-289px);
 }
 #sidebar .icons {
   position: relative;

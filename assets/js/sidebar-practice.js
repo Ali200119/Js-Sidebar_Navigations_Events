@@ -13,5 +13,5 @@ hamburger.addEventListener("click", function() {
 hide.addEventListener("click", function() {
     this.style.display = "none";
     hamburger.style.display = "inline";
-    sidebar.style.transform = "translate(-205px)";
+    sidebar.style.transform = "translate(-289px)";
 })
