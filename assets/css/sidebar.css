@@ -5,6 +5,12 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+body {
+  background-image: url("../images/Mountains.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #sidebar {
   height: 300px;
   transition: 0.4s;
